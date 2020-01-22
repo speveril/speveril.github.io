@@ -1,3 +1,6 @@
 theme: jekyll-theme-midnight
 title: Shamus Peveril's blog
 description: Making games and... making games.
+
+gems:
+  - jekyll-feed
