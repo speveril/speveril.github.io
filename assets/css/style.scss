@@ -27,6 +27,16 @@ section {
     margin-top: 50px;
 }
 
+nav.topnav {
+    display: flex;
+    .main-links {
+        flex: 1 0;
+    }
+    .aux-links {
+        flex: 0 0 auto;
+    }
+}
+
 #footer {
     font-size: 85%;
 

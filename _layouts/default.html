@@ -6,7 +6,6 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script> -->
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -20,10 +19,15 @@
 
       <section>
         <nav class="topnav">
-          <a href="https://shamuspeveril.com">shamuspeveril.com</a>
-          | <a href="https://twitter.com/shamuspeveril/">twitter</a>
-          | <a href="https://speveril.itch.io/">itch.io</a>
-          | <a href="https://github.com/speveril/">github</a>
+          <div class="main-links">
+            <a href="https://shamuspeveril.com">shamuspeveril.com</a>
+            | <a href="https://twitter.com/shamuspeveril/">twitter</a>
+            | <a href="https://speveril.itch.io/">itch.io</a>
+            | <a href="https://github.com/speveril/">github</a>
+          </div>
+          <div class="aux-links">
+            <a href="/feed.xml">RSS</a>
+          </div>
         </nav>
         <hr>
 
@@ -32,7 +36,7 @@
         <hr>
         <div id="footer">
             <span class="credits left">Hosted on GitHub Pages</span>
-            <span class="credits right"> Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+            <span class="credits right">Based on 'Midnight' theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
         </div>
 
       </section>
