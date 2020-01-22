@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 #header {
-    padding: 15px;
+    padding: 20px;
     height: auto;
 }
 
@@ -21,6 +21,10 @@ h2.date {
     font-size: 65%;
     line-height: 0;
     margin-bottom: 2em;
+}
+
+section {
+    margin-top: 50px;
 }
 
 #footer {
