@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1 class="post-title">{{ page.title }}</h1>
-<h2 class="date">Posted {{ page.date | date: "%B %d, %Y" }} | tagged
+<h2 class="date">posted {{ page.date | date: "%B %d, %Y" }} | tagged
     {% for tag in page.tags %}
         <a href="/tag/{{ tag.name }}">{{ tag.name }}</a>
     {% endfor %}
