@@ -3,8 +3,6 @@ layout: default
 title: speveril.github.io
 ---
 
-welcome to site
-
 <div class="posts">
     {% for post in site.posts limit:3 %}
         <article>

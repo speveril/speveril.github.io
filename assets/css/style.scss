@@ -3,7 +3,15 @@
 
 @import "{{ site.theme }}";
 
-#header nav .fork { display: none; }
+#header {
+    padding: 15px;
+    height: auto;
+}
+
+#header h1 { 
+    text-align: center;
+    margin-bottom: 0;
+}
 
 h1.post-title {
     border-bottom: 1px dotted #e8e8e8;
@@ -13,4 +21,9 @@ h2.date {
     font-size: 65%;
     line-height: 0;
     margin-bottom: 2em;
+}
+
+#footer {
+    font-size: 85%;
+    color: #e0d7c5;
 }
