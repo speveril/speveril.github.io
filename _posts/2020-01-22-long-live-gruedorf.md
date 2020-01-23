@@ -4,7 +4,7 @@ layout: post
 tags: gruedorf
 ---
 
-Years ago, Gruedorf was a pact between myself and McGrue, a [friend/nemesis](https://egometry.com), to get us both working on our game projects consistently.
+Years ago, Gruedorf was a pact between myself and [McGrue](https://egometry.com), a friend/nemesis, to get us both working on our game projects consistently.
 
 ## Why now?
 
