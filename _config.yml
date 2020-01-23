@@ -1,7 +1,8 @@
 theme: jekyll-theme-midnight
 title: speveril devlog
 description: Writing about making games.
-author: Shamus Peveril
+author: 
+  name: Shamus Peveril
 
 gems:
   - jekyll-feed

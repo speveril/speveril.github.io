@@ -11,7 +11,6 @@
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <author>
    <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
   </author>
 
   {% for post in site.tags.gruedorf limit:10 %}
