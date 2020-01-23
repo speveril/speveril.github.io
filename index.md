@@ -11,7 +11,6 @@ title: speveril.github.io
                 {% for tag in post.tags %}
                     <a href="/tag/{{ tag }}">{{ tag }}</a>
                 {% endfor %}
-                ({{ post.tags }})
             </h2>
             {{ post.content }}
         </article>
