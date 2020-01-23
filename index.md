@@ -4,7 +4,7 @@ title: speveril.github.io
 ---
 
 <div class="posts">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts %}
         <article>
             <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
             <h2 class="date">posted {{ post.date | date: "%B %d, %Y" }} | tagged
