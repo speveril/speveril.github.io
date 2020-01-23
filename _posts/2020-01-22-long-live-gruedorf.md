@@ -1,7 +1,7 @@
 ---
 title: Gruedorf is Dead, Long Live Gruedorf
 layout: post
-tags: gruedorf
+tags: gruedorf site-meta
 ---
 
 Years ago, Gruedorf was a pact between myself and [McGrue](https://egometry.com), a friend/nemesis, to get us both working on our game projects consistently.
